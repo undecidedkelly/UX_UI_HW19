@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelly Jo Wright Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+    <header class="navigation">
+        <div class="inline-block logo">
+            <img src="images/MiniLogo.png" alt="Logo"> 
+        </div>
+        <nav class="inline-block">
+            <ul>
+                <li><a href="#skills">My UX/UI Skills</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#connect">Let's Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="heroImg">
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Kelly Jo Wright</h1>
+            <p>I have a passion for problem solving. <br>From the simple to complex, I love collaborating with a team to find the root cause and design & develop the ideal solutions that are easy to use.</p>
+            <button onclick="downloadPDF()">Download Resume</button>
+            </div>
+        </div>
+    </section>
+    <!-- My UX/UI Skills Section coded using CSS Flex--> 
+    <div id="skills">
+        <h2>My UX/UI Skills</h2>
+    </div>
+    <section class="myuxGrid">
+        <div class="myuxGridArea">
+            <img src="images/WatercolorsLarge.png" alt="Placeholder">
+            <h3>Task Analysis</h3>
+            <p>Identifying Users goals, listing out key task and breaking them down into smaller subtasks.</p>
+        </div>
+        <div class="myuxGridArea">
+            <img src="images/WatercolorsLarge.png" alt="Placeholder">
+            <h3>Information Archeture</h3>
+            <p>Well-designed information architecture creates a seamless user experience; creating logical navigation paths and ensuring content is easily accessible and understandable.</p>
+        </div>
+        <div class="myuxGridArea">
+            <img src="images/WatercolorsLarge.png" alt="Placeholder">
+            <h3>Wireframing & Mockups</h3>
+            <p>Creating visual representations throughout the design process to communicate ideas, gather feedback and ultimately create a successful solution.</p>
+        </div>
+    </section>
+    <!-- My Work Section coded using CSS Flex -->
+    <div id="work">
+        <h2>My Work</h2>
+    </div>
+    <section id="myworkGrid">
+        <div id="parkImage" class="myworkGridArea">
+            <img src="images/TempPortrait.png" alt="Placeholder">
+        </div>
+        <div id="parkCase" class="myworkGridArea">
+            <h3>Case Study: Pivot Parking</h3>
+            <p>words</p>
+        </div>
+        <div id="oldCase" class="myworkGridArea">
+            <h3>Case Study: Old School</h3>
+            <p>words</p>
+        </div>
+        <div id="oldImage" class="myworkGridArea">
+            <img src="images/WatercolorsLarge.png" alt="Placeholder">
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </section>
+    <div id="connect">
+        <h2>Let's Connect</h2>
+    </div>
+    <section class="connectGrid">
+        <div class="connectGridArea">
+            <img src="images/EmailMeLogo.png" alt="Placeholder">
+            <p><a href="mailto:wrightkellyjo@gmail.com" target="_blank">Email Me</a></p>
+        </div>
+        <div class="connectGridArea">
+            <img src="images/CallMeLogo.png" alt="Placeholder">
+            <p>612.203.9775</p>
+        </div>
+        <div class="connectGridArea">
+            <img src="images/LinkedinLogo.png" alt="Placeholder">
+            <p><a href="www.linkedin.com/in/wrightkellyjo" target="_blank">Linkedin</a></p>
+        </div>
+    </section>
+    <footer class="navigation">
+        <div class="inline-block logo">
+            <img src="images/MiniLogo.png" alt="Logo"> 
+        </div>
+        <p class="inline-block">Copyright 2024</p>
+        <nav class="inline-block">
+            <ul>
+                <li><a href="#connect">Let's Connect</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
